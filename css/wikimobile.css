@@ -1,0 +1,165 @@
+* {
+    font-size: 5.0vw;
+}
+
+body {
+    width: 100%;
+    background-color: #161616;
+    color: #a7a7a7;
+    font-family: monospace;
+    margin: 0;
+    pading: 0;
+    word-break: break-word;
+}
+
+a {
+    color: #8fbb22;
+}
+
+h2 {
+    margin: 0;
+    font-size: 4vh;
+    margin-top: 2vh;
+    color: #318d62;
+    margin-bottom: 1vh;
+}
+
+h3 {
+    color: #b77612;
+    margin: 0;
+    font-size: 3vh;
+    font-weight: normal;
+}
+
+h4
+{
+    color: #318d62;
+    margin-bottom: 0;
+    margin-top: 1vh;
+}
+
+
+.toTop {
+    color: white;
+    background-color: #050505;
+    margin-right: 4vw;
+    margin-top: 2vh;
+    cursor: pointer;
+    position: absolute;
+    right: 1vw;
+    padding: 2vw;
+    border-radius: 4vw;
+}
+
+
+.toTop:active {
+    color: yellow;
+}
+
+hr.topic {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #a88f42;
+}
+
+b {
+    color: #ffed6b;
+    font-weight: normal;
+}
+
+table {
+    width: 100%;
+}
+
+thead th {
+    font-weight: bold;
+    text-align: left;
+}
+
+table.keyvalue tr td:nth-child(2) {
+    color: #69a369;
+}
+
+h
+{
+    color: white;
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+
+
+
+l {
+    font-weight: bold;
+    display: block;
+    min-width: 23vh;
+    font-size: 3vh;
+
+    word-break: keep-all;
+    margin-top: 2vh;
+}
+
+
+hr.chapter {
+    margin: 40px 0px;
+    color: #383838;
+}
+
+.infoblock {
+    display: block;
+    vertical-align: top;
+    padding: 3vh;
+    /*block-size: border-box;*/
+    margin-bottom: 8vh;
+    white-space: pre-line;
+    margin-bottom: 100vh;
+    font-size: 2vh;
+}
+
+.infoblock.index {
+    white-space: normal;
+}
+
+i
+{font-size: 2vh;
+color: pink}
+td {
+    vertical-align: top;
+    white-space: pre-line;
+}
+
+.infoblock.index a {
+    color: #1fb5c4;
+    text-decoration: none;
+    border-radius: 3vw;
+    padding: 3vw;
+    margin: 3vw;
+    display: inline-block;
+    background-color: #0c0a0a;
+}
+
+li
+{
+    font-size: 2vh;
+}
+
+.infobox {
+    border: 1px solid aliceblue;
+    width: auto;
+    display: inline-block;
+    padding: 12px 9px;
+}
+
+@media (min-width: 1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    * {
+
+        font-size: 14px;
+    }
+
+    body {
+        color: red;
+        font-size: 12px;
+    }
+}
